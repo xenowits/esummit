@@ -665,3 +665,7 @@ footer .scroll-to-top a:hover, footer .scroll-to-top a:focus, footer .scroll-to-
 
 .footer-social a { margin: 0 8px; font-size: 39px; color: #666; }
 .footer-social a:hover, .footer-social a:focus { color: #666; opacity: 0.6; }
+
+.black-font{
+	color: black;
+}
