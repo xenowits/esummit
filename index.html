@@ -20,6 +20,12 @@
 		<link rel="stylesheet" href="assets/css/media-queries.css">
 		<link rel="stylesheet" href="assets/css/timeline.css">
 
+		<!-- FAQ tags -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="faqcss/faqreset.css">
+		<link rel="stylesheet" href="faqcss/faqstyle.css"> 
+		<!-- <script src="js/modernizr.js"></script> -->
+
         <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
         <!--[if lt IE 9]>
@@ -28,7 +34,7 @@
         <![endif]-->
 
         <!-- Favicon and touch icons -->
-        <!-- <link rel="shortcut icon" href="assets/ico/favicon.png"> -->
+        <link rel="shortcut icon" href="assets/img/favicon.jpg">
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
@@ -37,6 +43,7 @@
     </head>
 
     <body>
+		<div style="overflow-x: hidden;">
     
         <!-- Loader -->
     	<div class="loader">
@@ -53,16 +60,17 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html">Lancar - Bootstrap One-Page Portfolio Template</a>
+					<a class="navbar-brand" href="index.html"></a>
 				</div>
 				<!-- Collect the nav links, forms, and other content for toggling -->
 				<div class="collapse navbar-collapse" id="top-navbar-1">
 					<ul class="nav navbar-nav navbar-right">
 						<li><a class="scroll-link" href="#top-content">Home</a></li>
-						<li><a class="scroll-link" href="#what-we-do">About</a></li>
+						<li><a class="scroll-link" href="#description">Description</a></li>
 						<li><a class="scroll-link" href="#timeline">Timeline</a></li>
-						<li><a class="scroll-link" href="#Timeline">FAQ</a></li>
-						<li><a class="scroll-link" href="#about">Contact</a></li>
+						<li><a class="scroll-link" href="#rules">Rules</a></li>
+						<li><a class="scroll-link" href="#faq">FAQ</a></li>
+						<li><a class="scroll-link" href="#contact">Contact</a></li>
 						<!-- <li><a class="scroll-link" href="#contact">More about us</a></li> -->
 					</ul>
 				</div>
@@ -70,108 +78,105 @@
 		</nav>
 		
         <!-- Page title -->
-        <div class="page-title top-content">
-            <div class="page-title-text wow fadeInUp">
-            	<h1>Welcome to ECell NITT</h1>
-            	<p>Let's rock</p>
-            	<div class="page-title-bottom-link">
-            		<a class="big-link-1 btn scroll-link" href="#pricing-2">Register</a>
+        <!-- <div class="page-title top-content">
+            <div class="page-title-text wow fadeInUp"> -->
+            	<!-- <h1>EY Case Study Challenge</h1> -->
+            	<!-- <p>'s rLetock</p> -->
+            	<!-- <div class="page-title-bottom-link">	 -->
             		<!-- <a class="big-link-2 btn scroll-link" href="#what-we-do">Learn more</a> -->
-            	</div>
-            </div>
-        </div>
+				<!-- </div> -->
+				<!-- <img src="assets/img/about/5.jpg"/> -->
+            <!-- </div>
+		</div> -->
+		<hr><hr><hr>
+		<h1 style="color: black;">EY Case study Challenge</h1>
+		<hr><hr><hr>
+		<a class="big-link-1 btn " href="https://goo.gl/forms/P6IjG2NCzqVMOL7T2" style="color: goldenrod; background-color: black;">Register</a>
 
 		<!-- About -->
-        <div class="block-3-container section-container what-we-do-container">
+        <div class="block-3-container section-container description-container">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-sm-12 block-3 section-description wow fadeIn">
-	                    <h2>About</h2>
-	                    <div class="divider-1 wow fadeInUp"><span></span></div>
+	                    <h1 style="text-align: left;">Description</h1>
+	                    <center><div class="divider-1 wow fadeInUp"><span></span></div></center>
 	                    <p>
-	                    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut 
-	                    	labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.
+								E-Cell NIT Trichy presents a National Case-Study Challenge in association with
+								EY where the brightest young minds compete against one another. The finalists will 
+								get a unique chance to present their solutions to a jury comprising experts from the 
+								Industry and professional executives from EY. 
+								Thats not all. 
+								The winners of this contest will get the once in a lifetime opportunity 
+								to intern at EY this summer.
 	                    </p>
 	                </div>
-	            </div>
-	            <!-- <div class="row">
-                	<div class="col-sm-3 block-3-box wow fadeInUp">
-	                	<div class="block-3-box-icon">
-	                		<span aria-hidden="true" class="icon_pencil"></span>
-	                	</div>
-	                    <h3>Web Design</h3>
-	                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                    </div>
-                    <div class="col-sm-3 block-3-box wow fadeInDown">
-	                	<div class="block-3-box-icon">
-	                		<span aria-hidden="true" class="icon_cogs"></span>
-	                	</div>
-	                    <h3>Ui / Ux</h3>
-	                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                    </div>
-                    <div class="col-sm-3 block-3-box wow fadeInUp">
-	                	<div class="block-3-box-icon">
-	                		<span aria-hidden="true" class="social_twitter"></span>
-	                	</div>
-	                    <h3>Social Media</h3>
-	                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                    </div>
-                    <div class="col-sm-3 block-3-box wow fadeInDown">
-	                	<div class="block-3-box-icon">
-	                		<span aria-hidden="true" class="icon_lightbulb"></span>
-	                	</div>
-	                    <h3>Branding</h3>
-	                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
-                    </div>
-	            </div> -->
+	            </div>  
 	        </div>
 		</div>
 		
 		<!-- Timeline -->
-		
+		<div class="container timeline-container">
+	            <div class="row">
+	                <div class="col-sm-12 block-3 section-description wow fadeIn">
+	                    <h1 style="text-align: left;">Timeline</h1>
+	                    <center><div class="divider-1 wow fadeInUp"><span></span></div></center>
+	                </div>
+	            </div>  
+	        </div>
             <div class="row">
                 <div class="col-md-12">
                     <div class="main-timeline4">
                         <div class="timeline">
-                            <a href="#" class="timeline-content">
-                                <span class="year" style="font-size: 15px;">DD-MM-YYYY</span>
+                            <a class="timeline-content">
+                                <span class="year blackfont" style="font-size: 14px;"><b>30th Jan 2019</b></span>
                                 <div class="inner-content">
-                                    <h3 class="title">Web Designer</h3>
-                                    <p class="description">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex odio, rhoncus sit amet tincidunt eu
+									<h3 class="title">Launch of Case Study Challenge</h3>
+									<p class="description">
+											Registrations for the Case Study Challenge begin
                                     </p>
                                 </div>
                             </a>
                         </div>
                         <div class="timeline">
-                            <a href="#" class="timeline-content">
-                                <span class="year" style="font-size: 15px;">DD-MM-YYYY</span>
+                            <a class="timeline-content">
+                                <span class="year" style="font-size: 14px;"><b>3rd Feb 2019</b></span>
                                 <div class="inner-content">
-                                    <h3 class="title">Web Designer</h3>
+                                    <h3 class="title">Registration deadline</h3>
                                     <p class="description">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex odio, rhoncus sit amet tincidunt eu
+                                        <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex odio, rhoncus sit amet tincidunt eu -->
                                     </p>
                                 </div>
                             </a>
 						</div>
 						<div class="timeline">
-                            <a href="#" class="timeline-content">
-                                <span class="year" style="font-size: 15px;">DD-MM-YYYY</span>
+                            <a class="timeline-content">
+                                <span class="year" style="font-size: 14px;"><b>10th Feb 2019</b></span>
                                 <div class="inner-content">
-                                    <h3 class="title">Web Designer</h3>
+                                    <h3 class="title">Submission of case solutions</h3>
                                     <p class="description">
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex odio, rhoncus sit amet tincidunt eu
+											This will be the last date for submission of the case solutions. Participants must make sure to submit before this day.
                                     </p>
                                 </div>
                             </a>
 						</div>
 						<div class="timeline">
-                            <a href="#" class="timeline-content">
-                                <span class="year" style="font-size: 15px;">DD-MM-YYYY</span>
+                            <a class="timeline-content">
+                                <span class="year" style="font-size: 14px;"><b>13th Feb 2019</b></span>
                                 <div class="inner-content">
-                                    <h3 class="title">Web Designer</h3>
-                                    <p class="description">
+                                    <h3 class="title">Top 15 finalists announced</h3>
+                                    <!-- <p class="description">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras ex odio, rhoncus sit amet tincidunt eu
+                                    </p> -->
+                                </div>
+                            </a>
+						</div>
+						<div class="timeline">
+                            <a class="timeline-content">
+                                <span class="year" style="font-size: 14px;"><b>17th Feb 2019</b></span>
+                                <div class="inner-content">
+                                    <h3 class="title">Finale at NIT TRICHY</h3>
+                                    <p class="description">
+										The Final Round will take place in the campus of NIT Trichy<hr>
                                     </p>
                                 </div>
                             </a>
@@ -180,10 +185,10 @@
                 </div>
 			</div>
 			<br>
-			<div class="page-title-bottom-link">
+			<!-- <div class="page-title-bottom-link">
 				<a class="big-link-1 btn scroll-link" href="#pricing-2">Rulebook</a>
-				<!-- <a class="big-link-2 btn scroll-link" href="#what-we-do">Learn more</a> -->
-			</div>
+				<!-- <a class="big-link-2 btn scroll-link" href="#what-we-do">Learn more</a>
+			</div> -->
 			
         
         <!-- Clients -->
@@ -193,69 +198,109 @@
  
         
         <!-- Block 2 -->
-        <div class="block-2-container section-container section-container-gray">
+        <div class="block-2-container section-container section-container-gray rules-container">
 	        <div class="container">
 	            <div class="row">
-	            	<div class="col-sm-6 block-2-box block-2-left wow fadeInLeft">
-	            		<h3>FAQ</h3>
-	            		<p>
-	            			Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit 
-	            			lobortis nisl ut aliquip ex ea commodo consequat.
-	            		</p>
+					<div class=" block-2-box block-2-left wow fadeInLeft">
+						
+						<h3>Rules</h3>
 	            		<ul>
 	            			<li>
-	            				<span aria-hidden="true" class="icon_check list-icon"></span> Etiam processus dynamicus qui
+								<span aria-hidden="true" class="icon_check list-icon"></span> 
+								Students can form a team of up to two members.
 	            			</li>
 	            			<li>
-	            				<span aria-hidden="true" class="icon_check list-icon"></span> Quam nunc putamus Photoshop
+								<span aria-hidden="true" class="icon_check list-icon"></span> 
+								Each member of the team must be a full-time student from a recognized university.
 	            			</li>
 	            			<li>
-	            				<span aria-hidden="true" class="icon_check list-icon"></span> Mutationem consuetudium WordPress
+								<span aria-hidden="true" class="icon_check list-icon"></span> 
+								Registrations can only be done online. 
 	            			</li>
 	            			<li>
-	            				<span aria-hidden="true" class="icon_check list-icon"></span> Exerci tation ullamcorper
+								<span aria-hidden="true" class="icon_check list-icon"></span> 
+								Once you have registered your team, no changes will be accepted.
+							</li>
+							<li>
+								<span aria-hidden="true" class="icon_check list-icon"></span> 
+								There is no cap on the number of participating teams from a college.
+							</li>
+							<li>
+								<span aria-hidden="true" class="icon_check list-icon"></span> 
+								All students who wish to participate are required to register before 11:59 PM, 3rd Feb.
+							</li>
+							<li>
+								<span aria-hidden="true" class="icon_check list-icon"></span> 
+								The problem statement shall be released on 4th Feb 2019 and will be sent via e-mail to all registered participants.
+							</li>
+							<li>
+								<span aria-hidden="true" class="icon_check list-icon"></span> 
+								Participants will get a week to solve the case and are expected to submit their solutions before 11:59 PM, 10th Feb 2019.
+							</li>
+							<li>
+								<span aria-hidden="true" class="icon_check list-icon"></span> 
+								The shortlist of the top 15 teams shall be released on 13th Feb 2019 and the Finale shall be held on 17th Feb 2019 at the NIT Trichy campus.
+							</li>
+							
+							<li>
+								<span aria-hidden="true" class="icon_check list-icon"></span> 
+								For any further queries, write to us.
 	            			</li>
 	            		</ul>
+						
+	            		
 	            	</div>
-	            	<div class="col-sm-6 block-2-box block-2-right block-2-media wow fadeInUp">
+	            	<!-- <div class="col-sm-6 block-2-box block-2-right block-2-media wow fadeInUp">
 	            		<div class="block-2-img-container">
 	            			<img src="assets/img/about/5.jpg" alt="" data-at2x="assets/img/about/5.jpg">
 	            			<div class="img-container-line line-1"></div>
 	            			<div class="img-container-line line-2"></div>
 	            			<div class="img-container-line line-3"></div>
 	            		</div>
-	            	</div>
+	            	</div> -->
 	            </div>
 	        </div>
-        </div>
+		</div>
+
+		<!-- FAQ -->
+		
+		<div class="cd-faq-items faq-container">
+			<ul id="FAQ" class="cd-faq-group">
+				<li class="cd-faq-title"><h2 style="text-align:center; font-size:72;">FAQ</h2></li>
+				<li>
+					<a class="cd-faq-trigger" style="text-align:left;" href="#0">If selected for finals, am I expected to be present at the NIT trichy campus for the final round?</a>
+					<div class="cd-faq-content" style="text-align:left;">
+						<p>Yes, you are also required to arrange for your own travel. Accomadation  can be made available in the NIT Trichy campus.</p>
+					</div> 
+				</li>
+				<li>
+					<a class="cd-faq-trigger" style="text-align:left;" href="#0">Can I submit more than one solution entries to the problem statement?</a>
+					<div class="cd-faq-content" style="text-align:left;">
+						<p>Yes, multiple solution entries can be submited before the deadline. Though, only the latest one will be counted.</p>
+					</div> 
+				</li>
+				<li>
+					<a class="cd-faq-trigger" style="text-align:left;" href="#0">Can I form a team with a member from a different campus?</a>
+					<div class="cd-faq-content" style="text-align:left;">
+						<p>Yes, teams may be formed by students across different years, streams, disciplines and campuses.</p>
+					</div> 
+				</li>
+	
+				<li>
+					<a class="cd-faq-trigger" style="text-align:left;" href="#0">I'm not interested in forming a team. Can I participate individually?</a>
+					<div class="cd-faq-content" style="text-align:left;">
+						<p>We encourage students to form a team of two, but a student can participate individually in the competition.</p>
+					</div> 
+				</li>
+			</ul> 
+		</div> 
+		<a href="#0" class="cd-close-panel">Close</a>
         
-        <!-- Counters -->
-        <!-- <div class="counters-container section-container section-container-full-bg">
-        	<div class="container">
-        		<div class="row">
-	            	<div class="col-sm-3 counter-box wow fadeInUp">
-                    	<h4 data-from="0" data-to="12">0</h4>
-                    	<p>Years of experience</p>
-	            	</div>
-	            	<div class="col-sm-3 counter-box wow fadeInDown">
-                    	<h4 data-from="0" data-to="274">0</h4>
-                    	<p>Projects completed</p>
-	            	</div>
-	            	<div class="col-sm-3 counter-box wow fadeInUp">
-                    	<h4 data-from="0" data-to="19295">0</h4>
-                    	<p>Lines of code</p>
-	            	</div>
-	            	<div class="col-sm-3 counter-box wow fadeInDown">
-                    	<h4 data-from="0" data-to="8296">0</h4>
-                    	<p>Cups of coffee</p>
-	            	</div>
-	            </div>
-        	</div>
-        </div> -->
+        
 
         <!-- Footer -->
         <footer>
-	        <div class="container">
+	        <div class="container contact-container">
 	        	<div class="row">
 		        	<div class="col-sm-12">
 		        		<div class="scroll-to-top">
@@ -264,16 +309,30 @@
 		        	</div>
 		        </div>
 	            <div class="row">
-                    <div class="col-sm-7 footer-copyright">
+					<div class="col-sm-6 footer-copyright">
+					<center>
+						<h3>Riddhi Shah</h3>
+						<p><strong>Phone: </strong> +91 96770 00767</p>
+						<p class="email"><strong>Email: </strong> riddhi@ecell-nitt.org</p>
+					</center>	
+					</div>
+					<div class="col-sm-6 footer-copyright">
+					<center>
+						<h3>Siddhant Dasgupta</h3>
+						<p><strong>Phone: </strong> +91 98203 11299</p>
+						<p class="email"><strong>Email: </strong> siddhant@ecell-nitt.org</p>
+					</center>	
+					</div>
+                    <div class="footer-copyright" style="text-align: center;">
                     	Made with &hearts; by ECell, NIT Trichy
                     </div>
-                    <div class="col-sm-5 footer-social">
+                    <!-- <div class="col-sm-5 footer-social">
                     	<a href="#"><i class="fa fa-facebook"></i></a>
 	                	<a href="#"><i class="fa fa-dribbble"></i></a>
 	                    <a href="#"><i class="fa fa-twitter"></i></a>
 	                    <a href="#"><i class="fa fa-google-plus"></i></a>
 	                    <a href="#"><i class="fa fa-pinterest"></i></a>
-                    </div>
+                    </div> -->
 	            </div>
 	        </div>
         </footer>
@@ -289,12 +348,17 @@
         <script src="assets/js/waypoints.min.js"></script>
         <script src="assets/js/jquery.countTo.js"></script>
         <script src="assets/js/masonry.pkgd.min.js"></script>
-        <script src="assets/js/scripts.js"></script>
+		<script src="assets/js/scripts.js"></script>
+		
+		<!-- FAQ tags -->
+		<!-- <script src="faqjs/jquery-2.1.1.js"></script>
+		<script src="faqjs/jquery.mobile.custom.min.js"></script>
+		<script src="faqjs/main.js"></script>  -->
         
         <!--[if lt IE 10]>
             <script src="assets/js/placeholder.js"></script>
         <![endif]-->
-
+	</div>
     </body>
 
 </html>
